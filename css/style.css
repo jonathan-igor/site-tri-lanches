@@ -30,6 +30,7 @@ body{
     list-style: none;
 }
 .cadastro{
+    font-size: 25px;
     background-color: rgb(29, 29, 175);
     color: white;
     border-radius: 15px;
@@ -40,7 +41,7 @@ body{
     text-align: right;
     text-decoration: none;
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 25px;
     transition: .4s;
     padding: 17px;
     font-size: 18px;
@@ -49,8 +50,6 @@ body{
      color: yellowgreen;
  }
  a{
-    
-    font-size: 0.9rem;
     color: #ccc;
     text-decoration: none;
     text-align: right;
@@ -62,7 +61,10 @@ a:hover{
 .menu a{ 
     text-decoration: none;
     padding: 17px;
-    font-size: 18px;
+    font-size: 20px;
+}
+.cadastro{
+    font-size: 25px;
 }
 .container{ 
     
