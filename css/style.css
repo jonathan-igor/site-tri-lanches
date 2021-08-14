@@ -72,7 +72,7 @@ a:hover{
     color: #ccc;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width:1049px ;
     height: 100%;
     background-color: rgba(0,0,0,0.6);
@@ -98,15 +98,11 @@ a:hover{
 .salada{ 
     margin: 30px;
     width: 350px;
-    height: 236px;
     display: flex;
     flex-direction: column;
     text-align: center;
     transition: .4s;
     
-}
-.salada:hover{
-    width: 500px;
 }
 
 .coracao{ 
@@ -116,24 +112,20 @@ a:hover{
     width: 350px;
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
     transition: .4s;
 }
-.bacon{ justify-content: center;
+.bacon{
+     justify-content: center;
     text-align: center;
     margin-left: 30px;
     width: 350px;
     display: flex;
     flex-direction: column;
     transition: .4s;
-    border: 2px solid;
     margin-top: none;
 }
 .b:hover{
      width:496px;
-}
-.bacon:hover{
-    width: 500px;
 }
 .cora{
     transition: .4s;
@@ -144,6 +136,54 @@ a:hover{
 img{
     width: 346px;
 }
-.coracao:hover{
+
+.frango{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px ;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+}
+.stro{
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+
+}
+.infarto{
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+}
+.f, .s, .i, .b{
+    transition: .4s;
+}
+.f:hover, .s:hover, .i:hover{ 
     width:500px;
+}
+.c2{ 
+    text-align: center;
+    margin-right: 30px;
+    direction: rtl;
+}
+.log{
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 20pt;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    background-color: rgb(96, 187, 4);
+}
+.log:hover{ 
+    color: #fff;
+    background-color:rgb(29, 29, 175) ;
 }
