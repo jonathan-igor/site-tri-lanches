@@ -187,3 +187,18 @@ img{
     color: #fff;
     background-color:rgb(29, 29, 175) ;
 }
+@media( max-width:360px){
+    .container-menu{
+        justify-content:baseline;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+    }
+   .logo{
+       border: 2px solid;
+       justify-content: center;
+   }
+
+}
