@@ -71,7 +71,8 @@ a:hover{
     font-size: 25px;
     color: #ccc;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     width:1049px ;
     height: 100%;
     background-color: rgba(0,0,0,0.6);
@@ -98,7 +99,8 @@ a:hover{
     margin: 30px;
     width: 350px;
     height: 236px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     transition: .4s;
     
@@ -116,6 +118,22 @@ a:hover{
     flex-direction: column;
     margin-top: 80px;
     transition: .4s;
+}
+.bacon{ justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+    border: 2px solid;
+    margin-top: none;
+}
+.b:hover{
+     width:496px;
+}
+.bacon:hover{
+    width: 500px;
 }
 .cora{
     transition: .4s;
