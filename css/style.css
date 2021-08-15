@@ -94,11 +94,6 @@ a:hover{
     transition: .4s;
 
 }
-.salad:hover{
-    width: 496px;
-    
-}
-
 .salada{ 
     justify-content: center;
     text-align: center;
@@ -129,14 +124,8 @@ a:hover{
     transition: .4s;
     margin-top: none;
 }
-.b:hover{
-     width:496px;
-}
 .cora{
     transition: .4s;
-}
-.cora:hover{
-    width: 496px;
 }
 img{
     width: 346px;
@@ -167,12 +156,6 @@ img{
     display: flex;
     flex-direction: column;
     transition: .4s;
-}
-.f, .s, .i, .b{
-    transition: .4s;
-}
-.f:hover, .s:hover, .i:hover{ 
-    width:500px;
 }
 .c2{ 
     text-align: center;
