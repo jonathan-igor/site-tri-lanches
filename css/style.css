@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 body{
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     background:url(../images/fundo.jpeg) ;
 }
@@ -50,6 +52,8 @@ body{
      color: yellowgreen;
  }
  a{
+     font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
     color: #ccc;
     text-decoration: none;
     text-align: right;
@@ -73,7 +77,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width:1049px ;
+    max-width:1049px ;
     height: 100%;
     background-color: rgba(0,0,0,0.6);
     word-wrap: break-word;
@@ -96,11 +100,12 @@ a:hover{
 }
 
 .salada{ 
-    margin: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px ;
     width: 350px;
     display: flex;
     flex-direction: column;
-    text-align: center;
     transition: .4s;
     
 }
@@ -187,7 +192,23 @@ img{
     color: #fff;
     background-color:rgb(29, 29, 175) ;
 }
-@media( max-width:360px){
+@media( max-width:1049px){
+    .container-menu{
+        justify-content:baseline;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        font-size: 15px;
+    }
+    .container-menu img{
+        margin-left: 0px;
+    }
+    .menu a {
+        margin:0 1px ;
+
+        font-size: 15px;}
+}
+@media(max-width:1000px){  
     .container-menu{
         justify-content:baseline;
         display: flex;
@@ -196,9 +217,11 @@ img{
         margin: 0px;
         font-size: 15px;
     }
-   .logo{
-       border: 2px solid;
-       justify-content: center;
-   }
+    .container-menu img{
+        margin-left: 0px;
+    }
+    .menu a {
+        margin:0 1px ;
 
+        font-size: 15px;}
 }
