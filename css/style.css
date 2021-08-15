@@ -55,9 +55,7 @@ nav a:hover{
     border-radius: 15px;
     background-color: dodgerblue;
 }
-.lanche{
 
-}
 .c1{
     min-width: 480px;
     display: flex;
@@ -85,8 +83,19 @@ article img{
     width: 300px;
 
 }
+.menumobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+.mm-line{
+    height: 4px;
+    background-color: #000;
+}
 @media(max-width:1000px){
     .container{ 
+        width: 800px;
+        background-color: rgba(15, 15, 24, 0);
         display: flex;
         align-items: center;
 
@@ -94,14 +103,23 @@ article img{
 }
 @media(max-width:790px){
     .container{
+        width:360px ;
+        justify-content: space-between;
         display: flex;
-        width: auto;
+
     }
-}
-@media(max-width:500px){
-   
-    nav ul,
-    nav li{
-        margin: 0px;
+    .menumobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
     }
+    nav ul{
+        display: none;
+        flex-direction: column;
+    }
+    .lanches{
+        margin-left: 80px;
+    }
+
+    
 }
