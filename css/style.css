@@ -94,7 +94,7 @@ article img{
 }
 @media(max-width:1000px){
     .container{ 
-        width: 800px;
+        width:790px;
         background-color: rgba(15, 15, 24, 0);
         display: flex;
         align-items: center;
@@ -103,7 +103,7 @@ article img{
 }
 @media(max-width:790px){
     .container{
-        width:360px ;
+        width:360px;
         justify-content: space-between;
         display: flex;
 
@@ -116,6 +116,10 @@ article img{
     nav ul{
         display: none;
         flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color:rgba(15, 15, 24, 0.623);
     }
     .lanches{
         margin-left: 80px;
